@@ -6,11 +6,6 @@ body{
 }
 
 
-figcaption{
-    min-width: 100%;
-    max-width:90%;
-    overflow: auto;
-}
 
 
 .header {
