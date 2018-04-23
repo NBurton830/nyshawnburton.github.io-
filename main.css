@@ -1,0 +1,88 @@
+body{
+    background-color: #0008ff ;
+    min-width:100%;
+
+
+}
+
+
+figcaption{
+    min-width: 100%;
+    max-width:90%;
+    overflow: auto;
+}
+
+
+.header {
+width:50%;
+margin-left:25%;
+margin-right:25%;
+background: #E8832B;
+}
+
+
+.header img {
+
+    width:100%;
+}
+
+nav {
+    position: fixed; /* Set the navbar to fixed position */
+      bottom: 0; /* Position the navbar at the bottom of the page */
+      width: 100%; /* Full width */
+      margin:  0 auto;
+      background-color: black;
+      font-size:2em;
+}
+nav ul {
+margin:0 ;
+list-style-type:none;
+overflow: hidden;
+min-width:100%;
+}
+nav li {
+    display:inline-block;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin:0;
+    }
+
+li a {
+  display: block;
+  width: 70px;
+  font-size:.5em;
+  text-decoration: none;
+  padding:0 10px 0 10px;
+  margin:0;
+}
+
+.Weblinc{
+    margin-bottom:100px; /* Add a bottom margin to avoid content overlay */
+
+}
+.Robotics img{
+
+max-width:100%;
+ }
+ .Weblinc img{
+
+max-width:100%;}
+ figcaption{
+max-width: 100%;
+ }
+
+
+@media screen and (max-width:320px)
+{
+    img{
+        width:100%}
+
+    li a {
+        font-size:20px;
+        white-space: nowrap
+    }
+figcaption
+
+
+}
