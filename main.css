@@ -15,17 +15,17 @@ margin-left:25%;  margin-right:25%; /* makes name logo centered */
 
 
 .header img {
-
-    width:100%;
+width:100%;
 }
 
 nav {
-    position: fixed; /* Set the navbar to fixed position */
+     position: fixed; /* Set the navbar to fixed position */
       bottom: 0; /* Position the navbar at the bottom of the page */
       width: 100%; /* Full width */
       margin:  0 auto;
-      background-color: black;
+      background-color:#E8832B;
       font-size:2em;
+      text-align: center;
 }
 nav ul {
 margin:0 ;
