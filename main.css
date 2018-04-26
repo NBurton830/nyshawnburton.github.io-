@@ -67,6 +67,9 @@ li a {
         text-overflow: inherit;
         font-size:16px;
         }
+    .front :last-child p{
+        margin-bottom:50px;
+    }
 
 
 
