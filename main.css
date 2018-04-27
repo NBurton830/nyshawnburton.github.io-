@@ -31,7 +31,7 @@ nav li {
     margin:0;
     }
 
-li a {
+nav li a {
   display: block;
   max-width:100%;
   font-size:.5em;
@@ -39,6 +39,7 @@ li a {
   padding:0 10px 0 10px;
   margin:0;
   color:white;
+  text-transform: uppercase;
 }
 
 
@@ -51,7 +52,10 @@ li a {
     margin-bottom:50px;
     text-overflow: inherit;
 }
-
+a:hover{
+    text-decoration: line-through;
+    color: #E8832B;
+}
 
 @media screen and (max-width:320px)
 {
@@ -70,7 +74,5 @@ li a {
     .front :last-child p{
         margin-bottom:50px;
     }
-
-
 
 }
